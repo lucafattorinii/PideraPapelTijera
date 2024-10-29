@@ -13,6 +13,6 @@ Este es un sencillo pero entretenido juego de “Piedra, Papel o Tijera” imple
 4.  El resultado de la ronda y el marcador se actualizarán automáticamente.
 5.  El juego termina cuando uno de los jugadores alcanza 10 puntos.
 6.  Ingresndo al siguiente link:
-´´´bash
+```bash
 https://lucafattorinii.github.io/PideraPapelTijera/
-´´´
+```
