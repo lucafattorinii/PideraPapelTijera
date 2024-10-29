@@ -8,13 +8,20 @@
 </head>
 <body>
     <h1>Piedra, Papel o Tijera</h1>
-    <div class="game">
-        <button class="choice" onclick="play('piedra')">Piedra</button>
-        <button class="choice" onclick="play('papel')">Papel</button>
-        <button class="choice" onclick="play('tijera')">Tijera</button>
+    <div id="nameInput">
+        <label for="playerName">Ingresa tu nombre: </label>
+        <input type="text" id="playerName" />
+        <button onclick="startGame()">Comenzar</button>
     </div>
-    <div id="result"></div>
-    <div id="score">Tú: 0 - Computadora: 0</div>
+    <div id="game" style="display: none;">
+        <div class="game">
+            <button class="choice" onclick="play('piedra')">Piedra</button>
+            <button class="choice" onclick="play('papel')">Papel</button>
+            <button class="choice" onclick="play('tijera')">Tijera</button>
+        </div>
+        <div id="result"></div>
+        <div id="score"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
