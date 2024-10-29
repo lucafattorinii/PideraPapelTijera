@@ -12,6 +12,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+#nameInput {
+    margin-bottom: 20px;
+}
+
 .game {
     display: flex;
     gap: 10px;
@@ -31,4 +35,12 @@ h1 {
 #score {
     margin-top: 10px;
     font-size: 18px;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
 }
